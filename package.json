@@ -1,0 +1,24 @@
+{
+  "name": "ex-on6-xp-s8-projeto-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrnpinheiro/ex-on6-xp-s8-projeto-1.git"
+  },
+  "author": "Mariana Pinheiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrnpinheiro/ex-on6-xp-s8-projeto-1/issues"
+  },
+  "homepage": "https://github.com/mrnpinheiro/ex-on6-xp-s8-projeto-1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
