@@ -1,8 +1,9 @@
 const express = require("express")
 const app = express()
 
-const filmes = require("./routes/musicRoute")
+const router = require("./routes/gamesRoute")
 
-app.use("/music", filmes)
+app.use(express.json())
+app.use('/', router)
 
 module.exports = app
